@@ -25,9 +25,26 @@
   --color-gold-500: #c19a45;
   --color-gold-600: #a67f35;
   --color-gold-700: #8a6829;
+
+  --color-sage-100: #e5ebe0;
+  --color-sage-700: #4c5a43;
+
+  --color-plum-100: #eee2ea;
+  --color-plum-700: #68395b;
+
+  --color-terracotta-100: #f5e3d9;
+  --color-terracotta-700: #8a4b32;
 }
 
 body {
   margin: 0;
   background-color: var(--color-cream);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-wine-500);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
