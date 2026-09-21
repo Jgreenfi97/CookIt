@@ -13,8 +13,8 @@ export function CourseFilter({
         onClick={() => onSelect(null)}
         className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
           selected === null
-            ? 'bg-rose-700 text-white'
-            : 'bg-white text-stone-600 border border-stone-300 hover:border-rose-300'
+            ? 'bg-wine-700 text-cream'
+            : 'border border-gold-300 bg-white text-wine-700 hover:border-wine-300'
         }`}
       >
         All
@@ -25,8 +25,8 @@ export function CourseFilter({
           onClick={() => onSelect(course)}
           className={`rounded-full px-4 py-1.5 text-sm font-medium transition ${
             selected === course
-              ? 'bg-rose-700 text-white'
-              : 'bg-white text-stone-600 border border-stone-300 hover:border-rose-300'
+              ? 'bg-wine-700 text-cream'
+              : 'border border-gold-300 bg-white text-wine-700 hover:border-wine-300'
           }`}
         >
           {course}

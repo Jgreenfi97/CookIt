@@ -5,7 +5,7 @@ import { RecipeDetailPage } from './pages/RecipeDetailPage'
 
 function App() {
   return (
-    <div className="min-h-screen bg-stone-50">
+    <div className="min-h-screen bg-cream">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />

@@ -39,6 +39,11 @@ export const recipes: Recipe[] = [
       'Mash the butter and flour together into a paste (beurre manié) and whisk into the sauce to thicken.',
       'Stir in the reserved onions and mushrooms, simmer 10 more minutes, and adjust seasoning before serving.',
     ],
+    winePairing: {
+      name: 'Gevrey-Chambertin Premier Cru',
+      appellation: 'Domaine Armand Rousseau, Burgundy',
+      note: 'A silky Pinot Noir with dark cherry and forest-floor notes that mirrors the braise and won’t fight the wine already in the pot.',
+    },
   },
   {
     slug: 'boeuf-bourguignon',
@@ -78,6 +83,11 @@ export const recipes: Recipe[] = [
       'In the last 30 minutes, sauté the pearl onions and mushrooms separately and stir them in.',
       'Remove the bouquet garni, adjust seasoning, and serve over egg noodles, potatoes, or crusty bread.',
     ],
+    winePairing: {
+      name: 'Clos de Vougeot Grand Cru',
+      appellation: 'Domaine Méo-Camuzet, Burgundy',
+      note: 'A structured Grand Cru with enough tannin and dark-fruit depth to stand up to the long-braised beef and its reduction.',
+    },
   },
   {
     slug: 'ratatouille',
@@ -112,6 +122,11 @@ export const recipes: Recipe[] = [
       'Stir in the tomatoes and herbes de Provence, then simmer uncovered for 25–30 minutes, stirring occasionally.',
       'Season with salt and pepper, tear in fresh basil, and serve warm or at room temperature.',
     ],
+    winePairing: {
+      name: 'Château de Selle Rosé',
+      appellation: 'Domaines Ott, Côtes de Provence',
+      note: 'A pale, structured rosé with herbal lift and stone-fruit brightness that echoes the sun-ripened vegetables.',
+    },
   },
   {
     slug: 'quiche-lorraine',
@@ -144,6 +159,11 @@ export const recipes: Recipe[] = [
       'Bake for 35–40 minutes until the custard is just set and golden on top.',
       'Let rest for 10 minutes before slicing and serving warm or at room temperature.',
     ],
+    winePairing: {
+      name: 'Champagne Blanc de Blancs',
+      appellation: 'Salon, Le Mesnil-sur-Oger',
+      note: 'Toasted brioche and lemon notes in the wine echo the buttery crust, while fine bubbles cut through the cream.',
+    },
   },
   {
     slug: 'french-onion-soup',
@@ -180,6 +200,11 @@ export const recipes: Recipe[] = [
       'Top each bowl with toasted baguette slices and a generous layer of Gruyère.',
       'Broil until the cheese is bubbling and golden, then serve immediately.',
     ],
+    winePairing: {
+      name: 'Meursault Premier Cru',
+      appellation: 'Domaine Coche-Dury, Burgundy',
+      note: 'A rich, hazelnut-toned white Burgundy with enough weight to meet the caramelized onions and molten Gruyère.',
+    },
   },
   {
     slug: 'creme-brulee',
@@ -209,6 +234,11 @@ export const recipes: Recipe[] = [
       'Bake for 35–45 minutes until the custards are just set but still jiggle slightly in the center.',
       'Chill for at least 2 hours, then sprinkle sugar on top and caramelize with a kitchen torch before serving.',
     ],
+    winePairing: {
+      name: 'Château d’Yquem',
+      appellation: 'Sauternes, Bordeaux',
+      note: 'The definitive pairing: honeyed apricot and botrytis sweetness that plays beautifully against the burnt-sugar crust.',
+    },
   },
   {
     slug: 'croissants',
@@ -241,6 +271,11 @@ export const recipes: Recipe[] = [
       'Proof the shaped croissants at warm room temperature for 2–3 hours until doubled and jiggly.',
       'Brush with egg wash and bake at 200°C for 16–20 minutes until deep golden brown.',
     ],
+    winePairing: {
+      name: 'Krug Grande Cuvée',
+      appellation: 'Champagne',
+      note: 'A celebratory, layered Champagne with its own notes of butter and toasted brioche — an indulgent morning pairing.',
+    },
   },
   {
     slug: 'tarte-tatin',
@@ -271,6 +306,11 @@ export const recipes: Recipe[] = [
       'Bake for 25–30 minutes until the pastry is puffed and golden.',
       'Let cool for 5 minutes, then invert onto a serving plate so the apples face up.',
     ],
+    winePairing: {
+      name: 'Vouvray Moelleux',
+      appellation: 'Domaine Huet "Le Mont", Loire Valley',
+      note: 'A honeyed, orchard-fruited Chenin Blanc that mirrors the caramelized apple without overwhelming the pastry.',
+    },
   },
   {
     slug: 'moules-marinieres',
@@ -301,6 +341,11 @@ export const recipes: Recipe[] = [
       'Discard any mussels that remain closed.',
       'Stir in the parsley, season to taste, and serve immediately with crusty bread to soak up the broth.',
     ],
+    winePairing: {
+      name: 'Chablis Premier Cru "Fourchaume"',
+      appellation: 'Domaine Raveneau, Burgundy',
+      note: 'Taut, oyster-shell minerality that cuts through the briny broth and echoes the wine already in the pot.',
+    },
   },
   {
     slug: 'salade-nicoise',
@@ -335,6 +380,11 @@ export const recipes: Recipe[] = [
       'Scatter the olives and anchovy fillets over the salad.',
       'Drizzle with the vinaigrette just before serving.',
     ],
+    winePairing: {
+      name: 'Château Minuty "Rosé et Or"',
+      appellation: 'Côtes de Provence',
+      note: 'A refined, dry rosé with citrus and white-peach notes built for the Riviera sun and salty anchovy and olive.',
+    },
   },
   {
     slug: 'gratin-dauphinois',
@@ -366,6 +416,11 @@ export const recipes: Recipe[] = [
       'Top with grated Gruyère if using, and bake for 70–80 minutes until the top is golden and potatoes are tender.',
       'Rest for 10 minutes before serving.',
     ],
+    winePairing: {
+      name: 'Hermitage Blanc',
+      appellation: 'J.-L. Chave, Northern Rhône',
+      note: 'A rich Marsanne-Roussanne blend with waxy stone-fruit weight that matches the cream and roasted garlic.',
+    },
   },
   {
     slug: 'madeleines',
@@ -399,6 +454,11 @@ export const recipes: Recipe[] = [
       'Bake for 10–12 minutes until the edges are golden and the signature hump has formed.',
       'Cool briefly in the pan, then turn out onto a wire rack.',
     ],
+    winePairing: {
+      name: 'Muscat de Beaumes-de-Venise',
+      appellation: 'Domaine de Durban, Rhône Valley',
+      note: 'A fragrant, orange-blossom fortified wine made for afternoon tea, echoing the madeleine’s lemon and butter.',
+    },
   },
 ]
 
